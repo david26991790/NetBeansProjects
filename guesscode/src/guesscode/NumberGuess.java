@@ -1,39 +1,39 @@
 package guesscode;
 
 
-import java.util.Scanner;
+
+
+import java.util.Random;
 
 public class NumberGuess {
+    public static void main(String[] args) {
+        Random random = new Random();
+        
+      
+        int answer = random.nextInt(100) + 1; 
+        System.out.println("1到100，猜猜看是多少？");
+        
+        int guess; 
+        int count = 0; 
+        
+        do {
+            guess = random.nextInt(100) + 1; 
+            
+            System.out.println("我猜是：" + guess);
+            
+            count++; 
+            
+            if (guess > answer) {
+                System.out.println("猜的数字太大了！");
+            } else if (guess < answer) {
+                System.out.println("猜的数字太小了！");
+            } else {
+                System.out.println("我猜對了！");
+                System.out.println("我猜了" + count + "次。");
+            }
+        } while (guess != answer);
+    }
+}
 
-	public static void main(String[] args) {
-		int result = (int)(Math.random()*99+1);								//產生謎底(範圍0~99)
-		int playerInput = -1;										//玩家輸入值初始化(-1避免一開始和謎底相同)
-		int minNumber = 0, maxNumber = 99;								//最大值,最小值初始化
-		
-		while(playerInput != result) {									//進入遊戲迴圈,沒猜中不離開
-			Scanner keyboardInput = new Scanner(System.in);						//加入掃描輸入的方法
-			
-			do {											//使用後測試迴圈判斷輸入值是否符合範圍
-				System.out.println("請輸入數字(範圍" + minNumber + "~" + maxNumber + "):");
-				playerInput = Integer.parseInt(keyboardInput.nextLine());
-			}while((playerInput < minNumber) || (playerInput > maxNumber));
-			
-			if(playerInput > result) {							        //沒猜中時對輸入範圍做更動
-				maxNumber = playerInput;
-			} else if(playerInput < result) {
-				minNumber = playerInput;
-			}
-			
-		}
-		
-		System.out.println("You guessed it!");								//猜中答案時離開迴圈的提示
-		
-	}
-
-}/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
 
