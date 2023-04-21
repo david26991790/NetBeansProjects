@@ -5,10 +5,25 @@
  */
 package 繼承;
 
+import java.util.Scanner;
+
 /**
  *
  * @author user
  */
-public class EditText {
+public class EditText extends TextView{
+    private Scanner sc;
+
+    public EditText(int id, int width, int height) {
+        super(id, width, height);
+       
+        
+    }
+    public void input() {
+        System.out.println("請輸入資料: ");
+        String s;
+        s = sc.next();
+        this.settext(s);
+    }
     
 }
