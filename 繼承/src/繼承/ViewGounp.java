@@ -26,9 +26,24 @@ public class ViewGounp extends view{
         StringBuilder vg;
         vg = new StringBuilder();
         vg.append(getid());
+        vg.append("/");
         
+    
+        return vg.toString();
     }
-    @Override
+    
+        public view findviewById(int id) {
+
+        for (view vg : views) {
+            if (vg.getid() == id) {
+                return vg;
+
+            }
+
+        }
+        return null;
+    }
+        @Override
     public void show() {
         for (view v : views) {
             v.show();

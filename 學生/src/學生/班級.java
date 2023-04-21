@@ -48,8 +48,6 @@ public class 班級 {
             sb.append(x.eng);
             sb.append(x.math);
             sb.append("     /     ");
-           
-
 //
         }
         return sb.toString();

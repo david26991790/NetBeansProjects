@@ -19,7 +19,7 @@ public class Test3 {
         tv1 = new TextView(1, 50, 20);
         tv1.settext("訊息");
         tv2 = new TextView(2, 50, 20);
-        tv1.settext("訊息");
+        tv2.settext("請按ok");
         btn = new button(3, 50, 20);
         btn.settext("ok");
         
@@ -30,6 +30,7 @@ public class Test3 {
         vg.show();
         
         button b;
-        b = (button) 
+        b = (button)vg.findviewById(3);
+        b.click();
     }
 }
