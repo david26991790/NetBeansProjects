@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JavaProject01/JavaProject01.iml" filepath="$PROJECT_DIR$/JavaProject01/JavaProject01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/NetBeansProjects.iml" filepath="$PROJECT_DIR$/.idea/NetBeansProjects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bank/bank.iml" filepath="$PROJECT_DIR$/bank/bank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/guesscode/guesscode.iml" filepath="$PROJECT_DIR$/guesscode/guesscode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvc設計/mvc設計.iml" filepath="$PROJECT_DIR$/mvc設計/mvc設計.iml" />
+      <module fileurl="file://$PROJECT_DIR$/分數上台大/分數上台大.iml" filepath="$PROJECT_DIR$/分數上台大/分數上台大.iml" />
+      <module fileurl="file://$PROJECT_DIR$/學生/學生.iml" filepath="$PROJECT_DIR$/學生/學生.iml" />
+      <module fileurl="file://$PROJECT_DIR$/工具/工具.iml" filepath="$PROJECT_DIR$/工具/工具.iml" />
+      <module fileurl="file://$PROJECT_DIR$/工具.java/工具.java.iml" filepath="$PROJECT_DIR$/工具.java/工具.java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/布林/布林.iml" filepath="$PROJECT_DIR$/布林/布林.iml" />
+      <module fileurl="file://$PROJECT_DIR$/月份封裝練習/月份封裝練習.iml" filepath="$PROJECT_DIR$/月份封裝練習/月份封裝練習.iml" />
+      <module fileurl="file://$PROJECT_DIR$/猜數字/猜數字.iml" filepath="$PROJECT_DIR$/猜數字/猜數字.iml" />
+      <module fileurl="file://$PROJECT_DIR$/繼承/繼承.iml" filepath="$PROJECT_DIR$/繼承/繼承.iml" />
+      <module fileurl="file://$PROJECT_DIR$/閏年/閏年.iml" filepath="$PROJECT_DIR$/閏年/閏年.iml" />
+      <module fileurl="file://$PROJECT_DIR$/電影票價/電影票價.iml" filepath="$PROJECT_DIR$/電影票價/電影票價.iml" />
+    </modules>
+  </component>
+</project>
